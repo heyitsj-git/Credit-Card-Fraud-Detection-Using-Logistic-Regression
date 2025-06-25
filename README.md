@@ -35,13 +35,9 @@ This project aims to detect fraudulent credit card transactions using a logistic
 
 ### 2. Exploratory Data Analysis (EDA)
 
-- Checked class distribution:
+- Scatter Plot Amount Fraud:
 
-  ![Class Distribution](images/output_6_0.png)
-
-- Plotted correlations and boxplots:
-
-  ![Correlation Heatmap](images/output_13_0.png)
+  ![Class Distribution](https://github.com/user-attachments/assets/6edb1c99-cc24-4243-b949-b0554d2ce562)
 
 ### 3. Model Training
 
@@ -52,27 +48,17 @@ This project aims to detect fraudulent credit card transactions using a logistic
 
 - Confusion matrix and classification report:
 
-  ![Confusion Matrix](images/output_29_0.png)
-
-- ROC-AUC Curve:
-
-  ![ROC Curve](images/output_40_0.png)
-
-- Precision-Recall curve:
-
-  ![Precision Recall](images/output_45_0.png)
+  ![Confusion Matrix](https://github.com/user-attachments/assets/b927bbb2-949d-4e8f-a527-0252da3c5352)
 
 ## Results
 
-| Metric       | Value (sample) |
-|--------------|----------------|
-| Accuracy     | ~99.2%         |
-| Precision    | ~81.5%         |
-| Recall       | ~90.2%         |
-| F1 Score     | ~85.6%         |
-| ROC AUC      | ~95%           |
-
-*(Replace with exact numbers from your report)*
+| Metric       | Value |
+|--------------|-------|
+| Accuracy     | 99.2% |
+| Precision    | 1.00  |
+| Recall       | 0.96  |
+| F1 Score     | 0.98  |
+| ROC AUC      | 95%   |
 
 ## How to Run
 
@@ -81,19 +67,6 @@ This project aims to detect fraudulent credit card transactions using a logistic
 3. Install requirements (if running locally):
 4. pip install pandas numpy matplotlib seaborn scikit-learn
 5. Run the notebook step by step.
-
-## Folder Structure
-project/
-│
-├── Credit_Card_Fraud_Detection_Using_Logistic_Regression.ipynb
-├── README.md
-└── images/
-├── output_6_0.png
-├── output_13_0.png
-├── output_29_0.png
-├── output_40_0.png
-└── output_45_0.png
-
 
 ## Future Work
 
